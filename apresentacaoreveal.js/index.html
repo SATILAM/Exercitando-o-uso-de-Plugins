@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
+		<link rel="shortcut icon" href="/Exercitando-o-uso-de-Plugins/svg/svg.ico" type="image/x-icon">
+		<title>reveal.js</title>
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/dracula.css">
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head> 
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section> 
+					<h1>Apresentando o Reveal.js</h1> 
+					<p>O Reveal.js é uma biblioteca JavaScript para criação de apresentações interativas utilizando HTML. Ele oferece diversos temas e recursos, permitindo que você personalize suas apresentações de acordo com sua necessidade.</p>
+				  </section>
+				  <section data-background-color="#073642" data-color="#EEE8D5"> 
+					<h2>Como usar o Reveal.js?</h2> 
+					<p>Para utilizar o Reveal.js, basta baixar os arquivos da biblioteca, incluir os arquivos CSS e JavaScript na sua página HTML e criar os slides utilizando a estrutura HTML. É possível customizar a aparência dos slides utilizando os temas disponíveis ou criando seus próprios estilos.</p>
+				  </section>
+				  <section data-background-color="#FDF6E3" data-color="#657B83"> 
+					<h2>Temas do Reveal.js</h2> 
+					<p>O Reveal.js oferece uma variedade de temas pré-definidos para personalização dos slides. Além disso, você pode criar seus próprios temas a partir das folhas de estilo CSS fornecidas com a biblioteca.</p>
+				  </section>
+				  <section data-background-color="#A54B26" data-color="#93A1A1"> 
+					<h2>Recursos do Reveal.js</h2> 
+					<ul>
+					  <li>Controle de slides através do teclado ou touchpad</li>
+					  <li>Zoom em imagens</li>
+					  <li>Inclusão de fragmentos em cada slide</li>
+					  <li>Modo de apresentação em tela cheia</li>
+					  <li>Entre outros</li>
+					</ul>
+				  </section>
+				</section>
+			</div>
+		</div>
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
